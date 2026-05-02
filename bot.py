@@ -2,7 +2,7 @@ import os
 from telegram import Update
 from telegram.ext import ApplicationBuilder, ChatMemberHandler, ContextTypes
 
-TOKEN = "TOKEN"
+TOKEN = os.environ.get("TOKEN")
 
 async def welcome(update: Update, context: ContextTypes.DEFAULT_TYPE):
     result = update.chat_member
