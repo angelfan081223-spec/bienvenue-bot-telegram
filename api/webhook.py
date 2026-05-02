@@ -26,8 +26,7 @@ class handler(BaseHTTPRequestHandler):
                 f"https://api.telegram.org/bot{TOKEN}/sendPhoto",
                 data={
                     "chat_id": user_id,
-                    "caption": "Coucou ♥️
-Trop cool que tu sois venue sur mon telegram privé !\n\nSi ça te dit je te donne un accès gratuit pour mon OF pour aujourd’hui pour qu’on puisse faire connaissance 😏\n\nhttps://onlyfans.com/amanda.lpz/c66",
+                    "caption": "Coucou♥️\n\nTrop cool que tu sois venue sur mon telegram privé !\n\nSi ça te dit je te donne un accès gratuit pour mon OF pour aujourd’hui pour qu’on puisse faire connaissance 😏\n\nhttps://onlyfans.com/amanda.lpz/c66",
                     "photo": "https://raw.githubusercontent.com/angelfan081223-spec/bienvenue-bot-telegram/main/photo.jpg.png"
                 }
             )
