@@ -1,2 +1,1 @@
-from webhook import handler
-app = handler
+from api.webhook import handler
