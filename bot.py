@@ -10,7 +10,7 @@ async def welcome(update: Update, context: ContextTypes.DEFAULT_TYPE):
         user = result.new_chat_member.user
         await context.bot.send_photo(
             chat_id=user.id,
-            photo="https://LIEN_DIRECT_VERS_TA_PHOTO.jpg",
+            photo=open("photo.jpg.png", "rb"),
             caption=(
                 "Coucou ♥️
 Trop cool que tu sois venue sur mon telegram privé !\n\nSi ça te dit je te donne un accès gratuit pour mon OF pour aujourd’hui pour qu’on puisse faire connaissance 😏"
